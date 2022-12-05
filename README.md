@@ -1,12 +1,50 @@
 [16,21,11,8,12,22] -> Merge Sort
 
-# Yukarıdaki dizinin Merge sort türüne göre aşamalarını yazınız.
+# 1.Yukarıdaki dizinin Merge sort türüne göre aşamalarını yazınız.
+
+16	21	11	8	12	22
+
+16|21	11
+8|12	22
+   
 
 
-![Merge_Sort](file:///C:/Users/HP/Desktop/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202022-12-05%20084702.png)
+16
+21	11
+
+8
+12	22
+    
+
+21
+
+16
+
+8
+----------------------------
+12
+
+22
+
+11
 
 
 
-# Big-O gösterimini yazınız.
+8|12|22
+
+11|16|21
+
+
+11	16	21	8	12	22
+
+
+
+
+
+
+
+
+
+# 2.Big-O gösterimini yazınız.
 
 O(nlogn)
